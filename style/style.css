@@ -21,8 +21,7 @@
 }
 .container{
     max-width: 1070px;
-    margin: 0px auto;
-    padding-left: 170px;        
+    margin: 0px auto;        
 }
 .header_flex, .footer_flex, .about, .subscribe, .plan_flex{
     display: flex;
