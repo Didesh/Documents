@@ -201,3 +201,74 @@
     color: #ffffff;
     transition: 500ms;    
 }
+
+@media screen and (max-width: 550px){
+    .container{
+        max-width: 375px;
+    }
+    .header .nav, .header__button-container{
+        display: none;
+    }
+
+    .header_flex{
+        justify-content: center;
+    }
+    
+    .about{
+        flex-direction: column;
+        text-align: center;
+        margin: 50px auto;
+    }
+    
+    .about_title{
+        font-size: 60px;
+        line-height: 60px;
+
+    }
+
+    .btn{
+        width: 100%;
+    }
+    
+    .btn_wight{
+        margin-left: 0;
+        margin-top: 30px;        
+    }
+    
+    .about .imeg{
+        width: 100%;
+    }
+
+    .subscribe{
+        flex-direction: column-reverse;
+    }
+    
+    .input{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .imeg__container{
+        margin-top: 30PX;
+    }
+
+    .plan_title{
+        text-align: center;
+    }
+
+    .plan_flex{
+        flex-direction: column;
+    }
+
+    .item::not(::last-of-typo){
+        margin-bottom: 30px;
+    }
+
+    .item .btn{
+        width: 80%;
+    }
+
+    .footer_flex{
+        flex-direction: column;
+    }
+}
