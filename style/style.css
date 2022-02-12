@@ -260,7 +260,7 @@
         flex-direction: column;
     }
 
-    .item::not(::last-of-typo){
+    .item:not(:last-of-type){
         margin-bottom: 30px;
     }
 
